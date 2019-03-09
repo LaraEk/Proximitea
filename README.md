@@ -1,2 +1,0 @@
-# Proximitea
-bubbletea finder
