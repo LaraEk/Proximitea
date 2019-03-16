@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-materialize";
 import logo from "./logotransparent.png";
+import Content from "../Content/Content.jsx";
 
 console.log(logo);
 
@@ -15,7 +16,9 @@ class Site extends React.Component {
               <center>
                 <img src={logo} alt="logo" width="100%" />
                 <Row>
-                  <Col className="sitecontainer">content</Col>
+                  <Col className="sitecontainer">
+                    <Content />
+                  </Col>
                 </Row>
               </center>
             </div>
